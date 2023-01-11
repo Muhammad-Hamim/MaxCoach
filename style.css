@@ -1,14 +1,7 @@
-@font-face{
-    font-family:"helvetica";
-    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
-    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
-    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
-}
-/* imported font */
+
 :root{
     --primary-color:#20AD96;
     --title-bold-color:#3F3A64;
-
 }
 *{
     margin: 0;
@@ -151,4 +144,66 @@ nav{
 .banner-photo img{
     /* width: 542px; */
 }
-
+/* banner-section-end */
+/* dream-section-start */
+.dream-section{
+    padding: 0px 0px 200px 0px;
+}
+.dream-header{
+    padding: 50px 0;
+    text-align: center;
+}
+.dream-drescription{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: var(--title-bold-color);
+}
+.dream-title{
+    font-size: 48px;
+    color: var(--title-bold-color);
+}
+.dream-title span{
+    color: var(--primary-color);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.dream-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    justify-content: center;
+}
+.dream{
+    text-align: center;
+}
+.dream-item-title{
+    margin-top: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.dream-item-description{
+    margin: 20px 0 50px 0;
+    color: var(--title-bold-color);
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    font-size: 15px;
+}
+.dream-btn span{
+    margin-left: 15px;
+}
+.dream-btn{
+    background-color: transparent;
+    color: var(--title-bold-color);
+    font-weight:600;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+    transition: 0.3s;
+}
+.dream-btn:hover{
+    color: var(--primary-color);
+    background-color: rgba(202, 202, 202, 0.342);
+}
