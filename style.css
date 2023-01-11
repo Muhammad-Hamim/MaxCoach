@@ -31,7 +31,7 @@ body{
 
 /* header-section-style-start */
 .banner-section{
-    background-image:linear-gradient(to bottom, #e9e6e300, #e9e6e300), url(images/bg-wave.png);
+    background-image:linear-gradient(to bottom, #e9e6e3, #e9e6e300), url(images/bg-wave.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -54,7 +54,7 @@ nav{
 .menu ul{
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(8, 70px) 0.85fr;
+    grid-template-columns: repeat(8, 70px) 1fr;
     grid-gap: 10px;
 }
 
@@ -98,15 +98,16 @@ nav{
     border: none;
     outline: none;
     border-radius: 5px 0 0 5px;
-    background-color:#e9e6e3;
+    background-color:#ffffff;
 }
 .menu-search-box i{
     padding: 14px 20px;
     border: none;
+    color: var(--primary-color);
+    font-weight: 700;
     border-radius: 0 5px 5px 0;
     background-color: #fff;
     transition: 0.3s;
-    background-color:#e9e6e3;
 }
 .menu-search-box i:hover{
     background-color:var(--primary-color);
@@ -119,9 +120,10 @@ nav{
     align-items:center;
     justify-content: space-between;
     grid-template-columns: 1fr 1fr;
+    column-gap: 200px;
 }
 .banner-text{
-    width: 430px;
+    /* width: 430px; */
 }
 .banner-title{
     color: var(--title-bold-color);
@@ -147,6 +149,6 @@ nav{
     background-color: var(--title-bold-color);
 }
 .banner-photo img{
-    width: 542px;
+    /* width: 542px; */
 }
 
